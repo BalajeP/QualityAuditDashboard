@@ -4,11 +4,11 @@ import { createClient } from '@supabase/supabase-js';
 // Project: Quality Audit database1  |  ref: rdtwzhmadiucxehjajxs
 const SUPABASE_URL  =
   (import.meta.env.VITE_SUPABASE_URL  as string | undefined) ||
-  'https://rdtwzhmadiucxehjajxs.supabase.co';
+  'https://ojtdnhtuzqytyrkhefgx.supabase.co';
 
 const SUPABASE_KEY  =
   (import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined) ||
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJkdHd6aG1hZGl1Y3hlaGphanhzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNzc5MjIsImV4cCI6MjA5Njk1MzkyMn0.6v8VbPko2ru9baObagXKO4vyhiWefthBzLbyU-lI7GM';
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qdGRuaHR1enF5dHlya2hlZmd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNjg4MzYsImV4cCI6MjA5Njk0NDgzNn0.-u9_G_1g7tROOZRse57a_a70fM6UCVtD6LGu7pDHFPo';
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
